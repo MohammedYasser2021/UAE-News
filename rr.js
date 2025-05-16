@@ -1,0 +1,86 @@
+const newsData = [
+    {
+        id: 1,
+        title: 'Dubai Expo 2025 Announces New Cultural Initiative',
+        excerpt: 'The upcoming Dubai Expo will showcase cultural heritage from all seven emirates in a special pavilion.',
+        image: 'imgs/img1.jpeg',
+        category: 'Culture',
+        author: 'Sarah Al Mansoori',
+        date: 'July 10, 2025',
+    },
+    {
+        id: 2,
+        title: 'Abu Dhabi Investment Fund Secures Major Global Deals',
+        excerpt: 'The sovereign wealth fund announced three significant international investments totaling over $5 billion.',
+      image: 'imgs/img2.jpeg',
+        category: 'Business',
+        author: 'Omar Al Suwaidi',
+        date: 'July 9, 2025',
+    },
+    {
+        id: 3,
+        title: 'UAE National Football Team Qualifies for World Cup 2026',
+        excerpt: 'Historic victory against Australia secures UAE\'s place in the upcoming World Cup tournament.',
+        image: 'imgs/img3.jpeg',
+        category: 'Sports',
+        author: 'Ahmed Al Zaabi',
+        date: 'July 8, 2025',
+    },
+    {
+        id: 4,
+        title: 'UAE-US Sign New Trade Agreement Worth $50 Billion',
+        excerpt: 'The landmark deal will boost bilateral trade and investment between the two nations.',
+        image: 'imgs/img4.jpeg',
+        category: 'Politics',
+        author: 'Fatima Al Hashemi',
+        date: 'July 7, 2025',
+    },
+    {
+        id: 5,
+        title: 'Sharjah Literature Festival Attracts Global Authors',
+        excerpt: 'The annual event will host over 200 authors from 50 countries in the biggest edition yet.',
+       image: 'imgs/img5.jpeg',
+        category: 'Culture',
+        author: 'Noura Al Kaabi',
+        date: 'July 6, 2025',
+    },
+    {
+        id: 6,
+        title: 'UAE Space Agency Announces Mission to Mars in 2027',
+        excerpt: 'Following the success of the Hope Probe, a new mission will send rovers to explore the red planet.',
+       image: 'imgs/img6.jpeg',
+        category: 'Science',
+        author: 'Ibrahim Al Qasim',
+        date: 'July 5, 2025',
+    }
+];
+
+const featuredNews = [
+    {
+        id: 7,
+        title: 'UAE Celebrates 55th National Day with Spectacular Events',
+        excerpt: 'Celebrations across all seven emirates feature drone shows, fireworks, and cultural performances.',
+        image: 'imgs/img7.webp',
+        category: 'National',
+        author: 'Khalid Al Blooshi',
+        date: 'July 11, 2025',
+    },
+    {
+        id: 8,
+        title: 'UAE New AI Strategy to Create 20,000 Tech Jobs',
+        excerpt: 'Government initiative aims to position the UAE as a global leader in artificial intelligence by 2030.',
+        image: 'imgs/img8.webp',
+        category: 'Technology',
+        author: 'Mariam Al Mheiri',
+        date: 'July 10, 2025',
+    },
+    {
+        id: 9,
+        title: 'Dubai New Sustainable City Project Breaks Ground',
+        excerpt: 'The eco-friendly development will house 10,000 residents and use 100% renewable energy.',
+        image: 'imgs/img9.jpg',
+        category: 'Environment',
+        author: 'Rashid Al Maktoum',
+        date: 'July 9, 2025',
+    }
+];

@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UAE News Today</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="imgs/logo.png">
+</head>
+<body>
+    <header id="main-header">
+        <div class="container">
+            <div class="logo">
+                <img src="imgs/logo.png" alt="UAE News Logo">
+                <h1>UAE News Today</h1>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#">Politics</a></li>
+                    <li><a href="#">Business</a></li>
+                    <li><a href="#">Sports</a></li>
+                    <li><a href="#">Culture</a></li>
+                </ul>
+                <div class="mobile-nav-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+<section class="hero">
+    <div class="container">
+        <div class="hero-content">
+            <span class="category">Featured</span>
+            <h2>UAE Announces New Green Energy Initiative for 2025</h2>
+            <p class="meta">
+                <span class="author">By Mohammed Al Shamsi</span>
+                <span class="date">July 12, 2025</span>
+            </p>
+            <p class="excerpt">The United Arab Emirates has unveiled an ambitious plan to increase renewable energy sources by 50% in the next five years, cementing its position as a leader in sustainability.</p>
+            <a href="#" class="btn btn-primary">Read More</a>
+            
+            <!-- Hero image bullets -->
+            <div class="hero-bullets">
+                <div class="bullet active" data-image="imgs/hero1.jpg">
+                    <img src="imgs/hero1.jpg" alt="Green Energy Initiative">
+                </div>
+                <div class="bullet" data-image="imgs/hero2.jpg">
+                    <img src="imgs/hero2.jpg" alt="Renewable Energy">
+                </div>
+                <div class="bullet" data-image="imgs/hero3.webp">
+                    <img src="imgs/hero3.webp" alt="Sustainability">
+                </div>
+                <div class="bullet" data-image="imgs/hero4.png">
+                    <img src="imgs/hero4.png" alt="UAE Innovation">
+                </div>
+            </div>
+        </div>
+        
+        <!-- Hero featured image -->
+        <div class="hero-image">
+            <img src="imgs/hero1.jpg" alt="Featured Image" id="hero-featured-image">
+        </div>
+    </div>
+</section>
+
+
+    <section class="latest-news">
+        <div class="container">
+            <div class="section-header">
+                <h2>Latest News</h2>
+                <a href="#" class="view-all">View All <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="news-grid" id="latest-news-grid">
+                <!-- News items will be populated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <section class="categories">
+        <div class="container">
+            <div class="section-header">
+                <h2>News Categories</h2>
+            </div>
+            <div class="category-grid">
+                <div class="category-card" data-category="politics">
+                    <div class="category-icon">
+                        <i class="fas fa-landmark"></i>
+                    </div>
+                    <h3>Politics</h3>
+                    <p>Latest political developments from the UAE and around the world</p>
+                </div>
+                <div class="category-card" data-category="business">
+                    <div class="category-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Business</h3>
+                    <p>Updates on UAE's economy, trade, and business landscape</p>
+                </div>
+                <div class="category-card" data-category="sports">
+                    <div class="category-icon">
+                        <i class="fas fa-futbol"></i>
+                    </div>
+                    <h3>Sports</h3>
+                    <p>Sports news, matches, and athlete profiles from the UAE</p>
+                </div>
+                <div class="category-card" data-category="culture">
+                    <div class="category-icon">
+                        <i class="fas fa-landmark"></i>
+                    </div>
+                    <h3>Culture</h3>
+                    <p>Cultural events, traditions, and heritage of the UAE</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="featured-stories">
+        <div class="container">
+            <div class="section-header">
+                <h2>Featured Stories</h2>
+            </div>
+            <div class="featured-grid" id="featured-stories-grid">
+                <!-- Featured stories will be populated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <section class="subscribe">
+        <div class="container">
+            <div class="subscribe-content">
+                <h2>Stay Updated with UAE News</h2>
+                <p>Subscribe to our newsletter to receive the latest news directly in your inbox.</p>
+                <form id="subscribe-form">
+                    <input type="email" placeholder="Your email address" required>
+                    <button type="submit" class="btn btn-primary">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="imgs/logo.png" alt="UAE News Logo">
+                    <h2>UAE News Today</h2>
+                </div>
+                <div class="footer-links">
+                    <div class="link-group">
+                        <h3>Quick Links</h3>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">Careers</a></li>
+                        </ul>
+                    </div>
+                    <div class="link-group">
+                        <h3>News</h3>
+                        <ul>
+                            <li><a href="#">Politics</a></li>
+                            <li><a href="#">Business</a></li>
+                            <li><a href="#">Sports</a></li>
+                            <li><a href="#">Culture</a></li>
+                        </ul>
+                    </div>
+                    <div class="link-group">
+                        <h3>Follow Us</h3>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 UAE News Today. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
